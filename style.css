@@ -2,12 +2,15 @@ html {
 font-size:16px;
 font-family: "Montserrat", sans-serif;
 color:#262626;
+line-height: 1.4em;
 }
 
 a {
 text-decoration: none;
 color:#000;
 }
+
+/* HOMEPAGE */
 
 body {
   opacity: 1;
@@ -52,17 +55,19 @@ font-family: "Montserrat", sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 4.5em;
-line-height: 1.4em;
+line-height: 1.2em;
 color: #000000;
 margin-bottom: 15px;
 }
 #landing span {
 margin-right: 20px;
 font-size: 2em;
+line-height: 1.4em;
 color:#999;
 }
 #landing p {
 font-size:2em;
+line-height: 1.4em;
 margin-top: 50px;
 }
 
@@ -84,4 +89,15 @@ display:inline;
 }
 #contact a {
 margin-left:20px;
+}
+
+/* ABOUT */
+#a_img {
+margin-left: 50px;
+margin-top: 100px;
+display: inline;
+}
+#a_about {
+width:400px;
+display:inline;
 }
