@@ -1,0 +1,87 @@
+html {
+font-size:16px;
+font-family: "Montserrat", sans-serif;
+color:#262626;
+}
+
+a {
+text-decoration: none;
+color:#000;
+}
+
+body {
+  opacity: 1;
+  transition: 0.7s opacity;
+}
+
+body.fade {
+    opacity: 0;
+    transition: none;
+}
+
+
+#nav {
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+width:100%;
+padding:20px;
+box-sizing: border-box;
+background: #FFFFFF;
+text-align: right;
+}
+.navlink {
+text-transform: uppercase;
+margin-right: 20px;
+}
+.navlink:last-child {
+margin-right: 0px;
+}
+
+
+
+#landing {
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+#hey {
+font-family: "Montserrat", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 4.5em;
+line-height: 1.4em;
+color: #000000;
+margin-bottom: 15px;
+}
+#landing span {
+margin-right: 20px;
+font-size: 2em;
+color:#999;
+}
+#landing p {
+font-size:2em;
+margin-top: 50px;
+}
+
+
+
+#contact {
+position: absolute;
+bottom:0px;
+left:0;
+right:0;
+box-sizing: border-box;
+text-align: center;
+width:100%;
+padding:30px 20px;
+background-color: #CCBDEC;
+}
+#contact h3 {
+display:inline;
+}
+#contact a {
+margin-left:20px;
+}
