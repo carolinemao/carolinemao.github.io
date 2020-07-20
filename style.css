@@ -111,6 +111,37 @@ transform:translateX(-50%);
 background: #CCBDEC;
 }
 
+/* projects */
+#projects_container {
+position: absolute;
+top:110%;
+left:50%;
+transform:translateX(-50%);
+padding-bottom:150px;
+}
+
+.project {
+display: flex;
+width:900px;
+}
+.proj_text {
+width:500px;
+padding:0px 30px 0px 0px;
+box-sizing: border-box;
+}
+.proj_title {
+font-size: 1.6em;
+line-height: 1.4em;
+margin:0px 0px 10px 0px;
+}
+.proj_position {
+font-size: 1.3em;
+line-height: 1.3em;
+font-weight: normal;
+color:#787878;
+margin:10px 0px 20px 0px;
+}
+
 /* ABOUT */
 #a_img {
 margin-left: 50px;
