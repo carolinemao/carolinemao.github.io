@@ -4,13 +4,10 @@
 
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body>
-<script>
-  document.body.className = 'fade';
-</script>
+<body onload="loading()">
 
 <div id="nav">
-  <a class="navlink" href="/">home</a>
+  <a class="navlink" id="curr_link" href="/">home</a>
 <a class="navlink" href="/about">about</a>
 <a class="navlink" href="/resume">resume</a>
 </div>
@@ -18,10 +15,13 @@
 <div id="landing">
 <h1 id="hey">Hey there, I'm <b>Caroline!</b></h1>
 <span>UX designer</span> <span>CS @ Barnard</span> <span>writer + artist</span>
+<div id="purple_diagonal"></div>
 <p>
   <b>Contact:</b> carolinemao36@gmail.com WEBSITE IN PROGRESS
 </p>
 </div>
+
+<div id="border">fhfhghjjjdf</div>
 
 <div id="contact">
   <h3>Contact</h3>
@@ -30,9 +30,5 @@
 <a class="contact_link" href="https://www.linkedin.com/in/carolinemao36/">carolinemao</a>
 <a class="contact_link" href="https://twitter.com/northcarolines">northcarolines</a>
 </div>
-<script>
-  document.addEventListener("DOMContentLoaded", function(e) {
-    document.body.className = '';
-  });
-</script>
+<script src="script.js"></script>
 </body>
