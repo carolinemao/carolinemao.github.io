@@ -1,0 +1,21 @@
+.section1 {
+width:60vw;
+margin:auto;
+}
+
+.section1 h1 {
+font-weight:bold;
+text-align:center;
+}
+
+img {
+margin:auto;
+display:block;
+}
+
+/* captions */
+h4 {
+font-weight:normal;
+font-style: italic;
+text-align: center;
+}

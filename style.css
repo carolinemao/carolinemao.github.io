@@ -136,10 +136,14 @@ margin:10px 0px 20px 0px;
 }
 
 /* ABOUT */
+#a_con {
+display:flex;
+flex-direction: row;
+}
 #a_img {
 margin-left: 50px;
 margin-top: 100px;
-display: inline;
+/* display: inline; */
 }
 #a_about {
 width:400px;
