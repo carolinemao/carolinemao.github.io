@@ -129,6 +129,7 @@ padding-bottom:150px;
 .project {
 display: flex;
 width:900px;
+margin-bottom:100px;
 }
 .proj_text {
 width:500px;
