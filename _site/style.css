@@ -1,0 +1,152 @@
+html {
+font-size:16px;
+font-family: "Montserrat", sans-serif;
+color:#262626;
+line-height: 1.4em;
+}
+
+a {
+text-decoration: none;
+color:#000;
+}
+
+/* HOMEPAGE */
+
+body {
+  opacity: 0;
+}
+
+
+#nav {
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+width:100%;
+padding:20px;
+box-sizing: border-box;
+background: #FFFFFF;
+text-align: right;
+}
+.navlink {
+text-transform: uppercase;
+margin-right: 20px;
+transition: all 0.3s ease;
+}
+.navlink:last-child {
+margin-right: 0px;
+}
+#curr_link, .navlink:hover {
+color:#CCBDEC;
+}
+
+
+
+#landing {
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+#purple_diagonal {
+width: 0px;
+height: 131px;
+background: #CCBDEC;
+transform: rotate(0deg);
+position: absolute;
+top:20%;
+left:-25%;
+z-index: -1;
+}
+#hey {
+font-family: "Montserrat", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 4.5em;
+line-height: 1.2em;
+color: #000000;
+margin-bottom: 15px;
+}
+#landing span {
+margin-right: 20px;
+font-size: 2em;
+line-height: 1.4em;
+color:#999;
+}
+#landing p {
+font-size:2em;
+line-height: 1.4em;
+margin-top: 50px;
+}
+
+
+
+#contact {
+left:0;
+right:0;
+box-sizing: border-box;
+text-align: center;
+width:100%;
+padding:30px 20px;
+background-color: #CCBDEC;
+}
+#contact h3 {
+display:inline;
+}
+#contact a {
+margin-left:20px;
+}
+
+
+#border {
+width: 158px;
+height: 44px;
+position: absolute;
+top:95%;
+margin-bottom:100px;
+left:50%;
+transform:translateX(-50%);
+background: #CCBDEC;
+}
+
+/* projects */
+#projects_container {
+position: absolute;
+top:110%;
+left:50%;
+transform:translateX(-50%);
+padding-bottom:150px;
+}
+
+.project {
+display: flex;
+width:900px;
+}
+.proj_text {
+width:500px;
+padding:0px 30px 0px 0px;
+box-sizing: border-box;
+}
+.proj_title {
+font-size: 1.6em;
+line-height: 1.4em;
+margin:0px 0px 10px 0px;
+}
+.proj_position {
+font-size: 1.3em;
+line-height: 1.3em;
+font-weight: normal;
+color:#787878;
+margin:10px 0px 20px 0px;
+}
+
+/* ABOUT */
+#a_img {
+margin-left: 50px;
+margin-top: 100px;
+display: inline;
+}
+#a_about {
+width:400px;
+display:inline;
+}
