@@ -19,7 +19,7 @@ html, body {
 height:100%;
 margin:0;
 }
-#page_container {
+.page_container {
 min-height:100%;
 margin-bottom:-90px;
 }
@@ -143,5 +143,5 @@ display: inline;
 }
 #a_about {
 width:400px;
-display:inline;
+/* display:inline; */
 }
