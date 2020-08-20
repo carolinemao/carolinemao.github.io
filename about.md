@@ -1,3 +1,7 @@
+layout: page
+title: "About Caroline"
+permalink: /about/
+
 <html>
 <head>
 <title>About Caroline Mao</title>
