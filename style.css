@@ -14,11 +14,24 @@ color:#000;
 
 body {
   opacity: 0;
+/* height:100%;
+min-height:100%;
+box-sizing: border-box;
+position: relative; */
+}
+html, body {
+height:100%;
+margin:0;
+}
+#page_container {
+min-height:100%;
+margin-bottom:-90px;
+/* background-color:#000; */
 }
 
 
 #nav {
-position: absolute;
+position: fixed;
 left: 0;
 right: 0;
 top: 0;
@@ -43,10 +56,14 @@ color:#CCBDEC;
 
 
 #landing {
-position: absolute;
+/* position: absolute;
 top:50%;
 left:50%;
-transform:translate(-50%,-50%);
+transform:translate(-50%,-50%); */
+width:60vw;
+margin-left:20vw;
+transform:translateY(50%);
+position:relative;
 }
 #purple_diagonal {
 width: 0px;
@@ -79,14 +96,15 @@ line-height: 1.4em;
 margin-top: 50px;
 }
 
-
-
 #contact {
-left:0;
-right:0;
+/* left:0px; */
 box-sizing: border-box;
 text-align: center;
 width:100%;
+    /* position: relative; */
+    height: 90px;
+    /* margin-top: 190px; */
+/* position: absolute; */
 padding:30px 20px;
 background-color: #CCBDEC;
 }
@@ -97,25 +115,15 @@ display:inline;
 margin-left:20px;
 }
 
-
-#border {
-width: 158px;
-height: 44px;
-position: absolute;
-top:95%;
-margin-bottom:100px;
-left:50%;
-transform:translateX(-50%);
-background: #CCBDEC;
-}
-
 /* projects */
 #projects_container {
-position: absolute;
-top:110%;
-left:50%;
-transform:translateX(-50%);
+position: relative;
+/* top:50vh; */
+padding-top:50vh;
+width:900px;
+margin:auto;
 padding-bottom:150px;
+/* background-color: grey; */
 }
 
 .project {
