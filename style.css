@@ -134,6 +134,11 @@ font-weight: normal;
 color:#787878;
 margin:10px 0px 20px 0px;
 }
+.project img {
+max-height:350px;
+object-fit: cover;
+object-position: 0px 0px;
+}
 
 /* ABOUT */
 #a_con {
