@@ -145,7 +145,6 @@ object-position: 0px 0px;
 display:flex;
 width:80vw;
 margin: 150px auto 0px auto;
-/* flex-direction: row; */
 }
 #a_about {
 width:400px;
@@ -153,4 +152,12 @@ margin-left:50px;
 }
 #a_about h1 {
 margin-bottom:30px;
+line-height:130%;
+margin-top:0px;
+}
+
+/* RESUME */
+#resume {
+margin: 300px auto 100px auto;
+display: block;
 }
