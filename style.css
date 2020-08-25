@@ -14,6 +14,13 @@ a:hover {
 color:#CCBDEC;
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width:500px) {
+html {
+font-size:18px;
+}
+}
+
 /* HOMEPAGE */
 
 body {
@@ -45,10 +52,16 @@ text-transform: uppercase;
 margin-right: 20px;
 transition: all 0.3s ease;
 }
+.my_name {
+font-weight: bold;
+float:left;
+text-transform: none;
+font-size:1.5em;
+}
 .navlink:last-child {
 margin-right: 0px;
 }
-#curr_link, .navlink:hover {
+.curr_link, .navlink:hover {
 color:#CCBDEC;
 }
 
