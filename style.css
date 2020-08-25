@@ -173,7 +173,7 @@ margin-top:-50px;
 .contact {
 box-sizing: border-box;
 text-align: center;
-width:100vw;
+width:100%;
   height: 90px;
 padding:30px 20px;
 background-color: #CCBDEC;
@@ -184,7 +184,7 @@ justify-content: space-evenly;
 align-self:center;
 }
 .contact a {
-margin-left:20px;
+/* margin-left:20px; */
 transition: all 0.3s ease;
 text-decoration: none;
 color:#000;
@@ -200,14 +200,14 @@ color:#000;
 width:0px;
   height: 2px;
   bottom: 0;
-top:10px;
-  left: 35px;
+top:45px;
+  left:0;
   background-color: #000;
   transition: all 0.3s ease-in-out 0s;
 }
 .contact a:hover::before {
   visibility: visible;
-width:calc(100% - 35px);;
+width:100%;
 }
 .contact_link {
 display:flex;
@@ -221,8 +221,14 @@ width:20px;
 .contact {
 flex-direction: column;
 text-align: left;
-/* justify-content:  */
 min-height:200px;
+}
+.contact a::before {
+top:10px;
+left: 35px;
+}
+.contact a:hover::before {
+width:calc(100% - 35px);
 }
 .contact h3, .contact_link {
 /* align-self: flex-start; */
@@ -242,14 +248,14 @@ margin-right:15px;
 #projects_container {
 position: relative;
 padding-top:100vh;
-width:900px;
+max-width:80vw;
 margin:auto;
 padding-bottom:150px;
 }
 
 .project {
 display: flex;
-width:900px;
+width:100%;
 margin-bottom:100px;
 }
 .proj_text {
