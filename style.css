@@ -113,7 +113,8 @@ left:50%;
 transform:translate(-50%,-50%);
 }
 #purple_diagonal {
-width:0px;
+/* width:0px; */
+width:390px;
 /* width:150px; */
 /* border-radius:100%; */
 /* clip-path: polygon(61% 0, 100% 0%, 36% 100%, 0 100%); */
