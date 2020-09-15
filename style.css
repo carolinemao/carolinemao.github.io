@@ -324,6 +324,7 @@ width:100%;
 /* ABOUT */
 .a_con {
 display:flex;
+justify-content: center;
 width:80vw;
 margin: 150px auto 0px auto;
 }
