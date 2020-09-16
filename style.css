@@ -15,6 +15,12 @@ a:hover {
 color:#CCBDEC;
 }
 
+li {
+padding:0px;
+line-height: 150%;
+margin-bottom: 5px;
+}
+
 @media screen and (max-width:500px) {
 html {
 font-size:18px;
