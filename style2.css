@@ -4,20 +4,19 @@ padding:40px 0px;
 
 .overview {
 margin-top:25px;
-width:100vw;
+width:100%;
 padding:50px 0px;
 box-sizing: border-box;
 display: flex;
-/* justify-content: flex-start; */
-align-items: flex-start;
+justify-content: space-evenly;
 flex-direction: row;
 }
 .cover {
 width:40vw;
 object-fit: cover;
 object-position: 0px 0px;
-margin-bottom:0px;
 align-self: center;
+margin:0px;
 }
 .overview h1 {
 text-align: left;
@@ -31,6 +30,7 @@ align-self: center;
 .overview_blocks {
 display: flex;
 flex-direction: row;
+margin:10px 0px;
 }
 .overview_block {
 width:calc(100%/3);
