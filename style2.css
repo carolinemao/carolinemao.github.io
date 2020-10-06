@@ -3,8 +3,9 @@ padding:40px 0px;
 }
 
 .overview {
-margin-top:25px;
+margin-top:60px;
 width:100%;
+/* max-height:50vh; */
 padding:50px 0px;
 box-sizing: border-box;
 display: flex;
@@ -20,6 +21,7 @@ margin:0px;
 }
 .overview h1 {
 text-align: left;
+margin-bottom: 10px;
 }
 .overview_con {
 width:40vw;
@@ -36,6 +38,9 @@ margin:10px 0px;
 width:calc(100%/3);
 padding-right:20px;
 box-sizing: border-box;
+}
+.cvc {
+padding:0px;
 }
 
 .last_block {
