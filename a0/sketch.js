@@ -3,26 +3,28 @@ function setup() {
 }
 
 function draw() {
-	// color for 10am to 5pm
-	//if (hour() > 10 && hour() < 5)
-	background(76,175,217);
-	textSize(32);
+	// time of day settings
+	if (hour() > 5 && hour() <= 10) {
+		background(189,236,239);
+		fill(246,226,189);
+		circle(130,130,120);
+	} else if (hour() > 10 && hour() <= 17) {
+		background(76,175,217); // afternoon
+		fill(252,239,207);
+		circle(300,90,120);
+	} else if (hour() > 17 && hour() <= 22) {
+		background(118,76,161); // evening
+		fill(243,185,95);
+		circle(550,150,120);
+	} else if (hour() > 22 || hour() <= 5) {
+		background(16,8,34); // night
+		fill(246,240,189);
+		circle(130,130,120);
+	}
+
+	// background(76,175,217);
+
 	noStroke();
-
-	// buildings
-	// fill(0,0,0);
-	// rect(0,300,200,300);
-	// fill(0,0,0);
-	// rect(240,300,200,300);
-	// fill(0,0,0);
-	// rect(480,300,200,300);
-	// fill(180);
-
-// draws the 3 buildings
-	// for (var i = 0; i < 3; i++) {
-	// 	fill(0,0,0);
-	// 	rect((50*(i+1))+(i*200), 300, 200, 300);
-	// }
 
 	// building 1
 	fill(3,4,94);
