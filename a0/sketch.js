@@ -2,6 +2,8 @@ function setup() {
 	createCanvas(800,600); // make an HTML canvas element width x height pixels
 }
 
+// TODO: PRINT OUT MINUTE; WRITTEN PORTION
+
 function draw() {
 	// time of day settings
 	if (hour() > 5 && hour() <= 10) {
@@ -21,8 +23,6 @@ function draw() {
 		fill(246,240,189);
 		circle(130,130,120);
 	}
-
-	// background(76,175,217);
 
 	noStroke();
 
@@ -82,4 +82,5 @@ function draw() {
 			rect(545+(12*(i+1)+(i*20)), 190+(j*40), 24, 24);
 		}
 	}
+	
 }
