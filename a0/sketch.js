@@ -30,10 +30,6 @@ function draw() {
 		circle(130,130,120);
 	}
 
-	// if (second() == 1) {
-	// 	console.log(minute());
-	// }
-
 	noStroke();
 
 	// building 1
@@ -46,7 +42,9 @@ function draw() {
 	for (var j = 0; j < 6; j++) {
 		for (var i = 0; i < 4; i++) {
 			c++; // lol
-			if (c <= hour()) {
+			if (c == 24) {
+				fill(3,4,94);
+			} else if (c <= hour()) {
 				fill(144,224,239);
 			} else {
 				fill(3,62,138);
