@@ -2,6 +2,8 @@ function setup() {
 	createCanvas(800,600); // make an HTML canvas element width x height pixels
 }
 
+// I'm a UX designer, artist, and occasional front-end developer who's excited to learn more about how we can use visuals and art to inform our perspective! I do a lot of work (product design, graphic design, digital art) which lies at the intersection of art and technology, so this class holds a lot of interest for me. Data visualization has already taught me so much about good design. For example, I never understood why it was so essential to design down to the pixel / using pixel grids until I was creating my clock, where I had to decide the exact location of every shape and make sure the math was correct—data viz helped me understand the importance of precision and carefully planning out your creations.
+
 // TODO: PRINT OUT MINUTE; WRITTEN PORTION
 
 function draw() {
@@ -22,6 +24,10 @@ function draw() {
 		background(16,8,34); // night
 		fill(246,240,189);
 		circle(130,130,120);
+	}
+
+	if (second() == 59) {
+		console.log(minute());
 	}
 
 	noStroke();
@@ -55,7 +61,9 @@ function draw() {
 	for (var j = 0; j < 10; j++) {
 		for (var i = 0; i < 6; i++) {
 			d++; // lol
-			if (d <= minute()) {
+			if (d == 60) {
+				fill(170,32,80); // darken the last window since we never have a 60th minute
+			} else if (d <= minute()) {
 				fill(249,189,198);
 			} else {
 				fill(255,132,160);
@@ -74,7 +82,10 @@ function draw() {
 	for (var j = 0; j < 10; j++) {
 		for (var i = 0; i < 6; i++) {
 			e++;
-			if (e <= second()) {
+			if (e == 60) {
+				fill(25,9,47); // darken the last window since we never have a 60th second
+			}
+			else if (e <= second()) {
 				fill(190,149,196);
 			} else {
 				fill(93,83,142);
@@ -82,5 +93,5 @@ function draw() {
 			rect(545+(12*(i+1)+(i*20)), 190+(j*40), 24, 24);
 		}
 	}
-	
+
 }
