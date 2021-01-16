@@ -64,10 +64,11 @@ function draw() {
 
 	for (var j = 0; j < 10; j++) {
 		for (var i = 0; i < 6; i++) {
-			d++; // lol
+			d++;
 			if (d == 60) {
-				fill(170,32,80); // darken the last window since we never have a 60th minute
-			} else if (d <= minute()) {
+				fill(254,70,126);
+			}
+			else if (d <= minute()) {
 				fill(249,189,198);
 			} else {
 				fill(255,132,160);
@@ -87,7 +88,7 @@ function draw() {
 		for (var i = 0; i < 6; i++) {
 			e++;
 			if (e == 60) {
-				fill(25,9,47); // darken the last window since we never have a 60th second
+				fill(34,25,66);
 			}
 			else if (e <= second()) {
 				fill(190,149,196);
