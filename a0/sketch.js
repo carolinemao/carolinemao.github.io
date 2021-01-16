@@ -29,7 +29,7 @@ function draw() {
 		circle(130,130,120);
 	}
 
-	if (second() == 59) {
+	if (second() == 1) {
 		console.log(minute());
 	}
 
