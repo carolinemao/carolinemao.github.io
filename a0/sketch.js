@@ -9,6 +9,8 @@ setInterval(
 		{ console.log(minute())};
 	}, 1000);
 
+	setInterval(function(){ console.log("hello"); }, 3000);
+
 // I'm a UX designer, artist, and occasional front-end developer who's excited to learn more about how we can use visuals and art to inform our perspective! I do a lot of work (product design, graphic design, digital art) which lies at the intersection of art and technology, so this class holds a lot of interest for me. Data visualization has already taught me so much about good design. For example, I never understood why it was so essential to design down to the pixel / using pixel grids until I was creating my clock, where I had to decide the exact location of every shape and make sure the math was correct—data viz helped me understand the importance of precision and carefully planning out your creations.
 
 function draw() {
