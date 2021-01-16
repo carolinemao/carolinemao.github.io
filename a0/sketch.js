@@ -1,6 +1,5 @@
 function setup() {
 	createCanvas(800,600); // make an HTML canvas element width x height pixels
-console.log('test');
 }
 
 // print the minute
